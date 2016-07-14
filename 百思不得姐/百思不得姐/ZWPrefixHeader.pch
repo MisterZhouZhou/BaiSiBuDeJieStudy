@@ -1,0 +1,32 @@
+//
+//  ZWPrefixHeader.pch
+//  百思不得姐
+//
+//  Created by rayootech on 16/7/3.
+//  Copyright © 2016年 rayootech. All rights reserved.
+//
+
+#ifndef ZWPrefixHeader_pch
+#define ZWPrefixHeader_pch
+
+#ifdef __OBJC__
+#import "Masonry.h"
+#import "UIView+ZWExtension.h"
+#import "UIBarButtonItem+ZWExtension.h"
+#import "UINavigationController+ZWTurnPush.h"
+#endif
+
+#ifdef DEBUG
+#define ZWLog(...) NSLog(__VA_ARGS__)
+
+#else
+#define ZWLog(...)
+#endif
+
+#define ZWLogFunc() ZWLog(@"%s",__func__);
+
+#define ZWRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define ZWGlobalBgColor ZWRGBColor(223,223,223)
+#define ZWRedTitleColor ZWRGBColor(253, 55, 96)
+
+#endif /* ZWPrefixHeader_pch */

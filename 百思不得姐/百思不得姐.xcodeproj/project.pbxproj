@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A600341B1D30EFFA0079E736 /* ZWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A600341A1D30EFFA0079E736 /* ZWNavigationController.m */; };
+		A614A0051D291EDF003CD2C0 /* ZWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A0041D291EDF003CD2C0 /* ZWTabBarViewController.m */; };
+		A614A00C1D291F44003CD2C0 /* ZWEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A00B1D291F44003CD2C0 /* ZWEssenceViewController.m */; };
+		A614A00F1D291F50003CD2C0 /* ZWNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A00E1D291F50003CD2C0 /* ZWNewViewController.m */; };
+		A614A0121D291F7A003CD2C0 /* ZWFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A0111D291F7A003CD2C0 /* ZWFriendTrendViewController.m */; };
+		A614A0151D291F81003CD2C0 /* ZWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A0141D291F81003CD2C0 /* ZWMeViewController.m */; };
+		A614A0181D29244C003CD2C0 /* ZWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A0171D29244C003CD2C0 /* ZWTabBar.m */; };
+		A614A01C1D292C27003CD2C0 /* UIView+ZWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A01B1D292C27003CD2C0 /* UIView+ZWExtension.m */; };
+		A614A0201D296068003CD2C0 /* UIBarButtonItem+ZWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A01F1D296068003CD2C0 /* UIBarButtonItem+ZWExtension.m */; };
+		A614A0231D2964EF003CD2C0 /* UIButton+ZWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A614A0221D2964EF003CD2C0 /* UIButton+ZWBlock.m */; };
+		A661A3F11D36063000749218 /* ZWRecommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A661A3F01D36063000749218 /* ZWRecommentViewController.m */; };
+		A661A3F41D36071600749218 /* UINavigationController+ZWTurnPush.m in Sources */ = {isa = PBXBuildFile; fileRef = A661A3F31D36071600749218 /* UINavigationController+ZWTurnPush.m */; };
+		A69F46001D29131B007012A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F45FF1D29131B007012A9 /* main.m */; };
+		A69F46031D29131B007012A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F46021D29131B007012A9 /* AppDelegate.m */; };
+		A69F460B1D29131B007012A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69F460A1D29131B007012A9 /* Assets.xcassets */; };
+		F5B7B0BD8335BB58C67CF09D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB13EBF69887E3947CE3BFE9 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18445CA66ED2EE8D10AC4ED5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A60034191D30EFFA0079E736 /* ZWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWNavigationController.h; sourceTree = "<group>"; };
+		A600341A1D30EFFA0079E736 /* ZWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWNavigationController.m; sourceTree = "<group>"; };
+		A614A0031D291EDF003CD2C0 /* ZWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTabBarViewController.h; sourceTree = "<group>"; };
+		A614A0041D291EDF003CD2C0 /* ZWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTabBarViewController.m; sourceTree = "<group>"; };
+		A614A00A1D291F44003CD2C0 /* ZWEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWEssenceViewController.h; sourceTree = "<group>"; };
+		A614A00B1D291F44003CD2C0 /* ZWEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWEssenceViewController.m; sourceTree = "<group>"; };
+		A614A00D1D291F50003CD2C0 /* ZWNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWNewViewController.h; sourceTree = "<group>"; };
+		A614A00E1D291F50003CD2C0 /* ZWNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWNewViewController.m; sourceTree = "<group>"; };
+		A614A0101D291F7A003CD2C0 /* ZWFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWFriendTrendViewController.h; sourceTree = "<group>"; };
+		A614A0111D291F7A003CD2C0 /* ZWFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWFriendTrendViewController.m; sourceTree = "<group>"; };
+		A614A0131D291F81003CD2C0 /* ZWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMeViewController.h; sourceTree = "<group>"; };
+		A614A0141D291F81003CD2C0 /* ZWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMeViewController.m; sourceTree = "<group>"; };
+		A614A0161D29244C003CD2C0 /* ZWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTabBar.h; sourceTree = "<group>"; };
+		A614A0171D29244C003CD2C0 /* ZWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTabBar.m; sourceTree = "<group>"; };
+		A614A01A1D292C27003CD2C0 /* UIView+ZWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWExtension.h"; sourceTree = "<group>"; };
+		A614A01B1D292C27003CD2C0 /* UIView+ZWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWExtension.m"; sourceTree = "<group>"; };
+		A614A01D1D292CB3003CD2C0 /* ZWPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPrefixHeader.pch; sourceTree = "<group>"; };
+		A614A01E1D296068003CD2C0 /* UIBarButtonItem+ZWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZWExtension.h"; sourceTree = "<group>"; };
+		A614A01F1D296068003CD2C0 /* UIBarButtonItem+ZWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZWExtension.m"; sourceTree = "<group>"; };
+		A614A0211D2964EF003CD2C0 /* UIButton+ZWBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZWBlock.h"; sourceTree = "<group>"; };
+		A614A0221D2964EF003CD2C0 /* UIButton+ZWBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZWBlock.m"; sourceTree = "<group>"; };
+		A661A3EF1D36063000749218 /* ZWRecommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWRecommentViewController.h; sourceTree = "<group>"; };
+		A661A3F01D36063000749218 /* ZWRecommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWRecommentViewController.m; sourceTree = "<group>"; };
+		A661A3F21D36071600749218 /* UINavigationController+ZWTurnPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZWTurnPush.h"; sourceTree = "<group>"; };
+		A661A3F31D36071600749218 /* UINavigationController+ZWTurnPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZWTurnPush.m"; sourceTree = "<group>"; };
+		A69F45FB1D29131B007012A9 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69F45FF1D29131B007012A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A69F46011D29131B007012A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A69F46021D29131B007012A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A69F460A1D29131B007012A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A69F460F1D29131B007012A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB13EBF69887E3947CE3BFE9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2318815B050D5A5C4F981B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69F45F81D29131B007012A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B7B0BD8335BB58C67CF09D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE9EA54ED75C5C804F3D4E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18445CA66ED2EE8D10AC4ED5 /* Pods.debug.xcconfig */,
+				FC2318815B050D5A5C4F981B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A99684A01FBC4E266798C2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB13EBF69887E3947CE3BFE9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6149FFB1D291E0F003CD2C0 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0191D292BEF003CD2C0 /* Category */,
+				A614A0021D291EB1003CD2C0 /* Base */,
+				A6149FFC1D291E26003CD2C0 /* Mouldes */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A6149FFC1D291E26003CD2C0 /* Mouldes */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0001D291E6D003CD2C0 /* Me */,
+				A6149FFF1D291E5D003CD2C0 /* FriendTrend */,
+				A6149FFE1D291E4F003CD2C0 /* New */,
+				A6149FFD1D291E3C003CD2C0 /* Essence */,
+			);
+			path = Mouldes;
+			sourceTree = "<group>";
+		};
+		A6149FFD1D291E3C003CD2C0 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0061D291EF3003CD2C0 /* controllers */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		A6149FFE1D291E4F003CD2C0 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0071D291F02003CD2C0 /* controllers */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		A6149FFF1D291E5D003CD2C0 /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0081D291F0D003CD2C0 /* controllers */,
+			);
+			path = FriendTrend;
+			sourceTree = "<group>";
+		};
+		A614A0001D291E6D003CD2C0 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0091D291F18003CD2C0 /* controllers */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		A614A0021D291EB1003CD2C0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0031D291EDF003CD2C0 /* ZWTabBarViewController.h */,
+				A614A0041D291EDF003CD2C0 /* ZWTabBarViewController.m */,
+				A614A0161D29244C003CD2C0 /* ZWTabBar.h */,
+				A614A0171D29244C003CD2C0 /* ZWTabBar.m */,
+				A60034191D30EFFA0079E736 /* ZWNavigationController.h */,
+				A600341A1D30EFFA0079E736 /* ZWNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A614A0061D291EF3003CD2C0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A614A00A1D291F44003CD2C0 /* ZWEssenceViewController.h */,
+				A614A00B1D291F44003CD2C0 /* ZWEssenceViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A614A0071D291F02003CD2C0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A614A00D1D291F50003CD2C0 /* ZWNewViewController.h */,
+				A614A00E1D291F50003CD2C0 /* ZWNewViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A614A0081D291F0D003CD2C0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0101D291F7A003CD2C0 /* ZWFriendTrendViewController.h */,
+				A614A0111D291F7A003CD2C0 /* ZWFriendTrendViewController.m */,
+				A661A3EF1D36063000749218 /* ZWRecommentViewController.h */,
+				A661A3F01D36063000749218 /* ZWRecommentViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A614A0091D291F18003CD2C0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A614A0131D291F81003CD2C0 /* ZWMeViewController.h */,
+				A614A0141D291F81003CD2C0 /* ZWMeViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A614A0191D292BEF003CD2C0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A661A3F21D36071600749218 /* UINavigationController+ZWTurnPush.h */,
+				A661A3F31D36071600749218 /* UINavigationController+ZWTurnPush.m */,
+				A614A01A1D292C27003CD2C0 /* UIView+ZWExtension.h */,
+				A614A01B1D292C27003CD2C0 /* UIView+ZWExtension.m */,
+				A614A01E1D296068003CD2C0 /* UIBarButtonItem+ZWExtension.h */,
+				A614A01F1D296068003CD2C0 /* UIBarButtonItem+ZWExtension.m */,
+				A614A0211D2964EF003CD2C0 /* UIButton+ZWBlock.h */,
+				A614A0221D2964EF003CD2C0 /* UIButton+ZWBlock.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A69F45F21D29131B007012A9 = {
+			isa = PBXGroup;
+			children = (
+				A69F45FD1D29131B007012A9 /* 百思不得姐 */,
+				A69F45FC1D29131B007012A9 /* Products */,
+				0DE9EA54ED75C5C804F3D4E8 /* Pods */,
+				9A99684A01FBC4E266798C2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A69F45FC1D29131B007012A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69F45FB1D29131B007012A9 /* 百思不得姐.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69F45FD1D29131B007012A9 /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				A6149FFB1D291E0F003CD2C0 /* classes */,
+				A69F46011D29131B007012A9 /* AppDelegate.h */,
+				A69F46021D29131B007012A9 /* AppDelegate.m */,
+				A69F460A1D29131B007012A9 /* Assets.xcassets */,
+				A69F45FE1D29131B007012A9 /* Supporting Files */,
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		A69F45FE1D29131B007012A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69F460F1D29131B007012A9 /* Info.plist */,
+				A69F45FF1D29131B007012A9 /* main.m */,
+				A614A01D1D292CB3003CD2C0 /* ZWPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69F45FA1D29131B007012A9 /* 百思不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69F46121D29131B007012A9 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildPhases = (
+				44374EC5080E5AEB0C0101EB /* Check Pods Manifest.lock */,
+				A69F45F71D29131B007012A9 /* Sources */,
+				A69F45F81D29131B007012A9 /* Frameworks */,
+				A69F45F91D29131B007012A9 /* Resources */,
+				A5B5856DE80C1D3E34269685 /* Embed Pods Frameworks */,
+				FBE9ED9B4D47501623AAB6DC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐";
+			productName = "百思不得姐";
+			productReference = A69F45FB1D29131B007012A9 /* 百思不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69F45F31D29131B007012A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZW;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rayootech;
+				TargetAttributes = {
+					A69F45FA1D29131B007012A9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A69F45F61D29131B007012A9 /* Build configuration list for PBXProject "百思不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A69F45F21D29131B007012A9;
+			productRefGroup = A69F45FC1D29131B007012A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69F45FA1D29131B007012A9 /* 百思不得姐 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69F45F91D29131B007012A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69F460B1D29131B007012A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44374EC5080E5AEB0C0101EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B5856DE80C1D3E34269685 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE9ED9B4D47501623AAB6DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69F45F71D29131B007012A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A614A0051D291EDF003CD2C0 /* ZWTabBarViewController.m in Sources */,
+				A614A0121D291F7A003CD2C0 /* ZWFriendTrendViewController.m in Sources */,
+				A614A0181D29244C003CD2C0 /* ZWTabBar.m in Sources */,
+				A614A0231D2964EF003CD2C0 /* UIButton+ZWBlock.m in Sources */,
+				A600341B1D30EFFA0079E736 /* ZWNavigationController.m in Sources */,
+				A614A01C1D292C27003CD2C0 /* UIView+ZWExtension.m in Sources */,
+				A69F46031D29131B007012A9 /* AppDelegate.m in Sources */,
+				A661A3F41D36071600749218 /* UINavigationController+ZWTurnPush.m in Sources */,
+				A614A00C1D291F44003CD2C0 /* ZWEssenceViewController.m in Sources */,
+				A614A00F1D291F50003CD2C0 /* ZWNewViewController.m in Sources */,
+				A614A0151D291F81003CD2C0 /* ZWMeViewController.m in Sources */,
+				A69F46001D29131B007012A9 /* main.m in Sources */,
+				A614A0201D296068003CD2C0 /* UIBarButtonItem+ZWExtension.m in Sources */,
+				A661A3F11D36063000749218 /* ZWRecommentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A69F46101D29131B007012A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A69F46111D29131B007012A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69F46131D29131B007012A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18445CA66ED2EE8D10AC4ED5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思不得姐/ZWPrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zyyt.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A69F46141D29131B007012A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2318815B050D5A5C4F981B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思不得姐/ZWPrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zyyt.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69F45F61D29131B007012A9 /* Build configuration list for PBXProject "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F46101D29131B007012A9 /* Debug */,
+				A69F46111D29131B007012A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69F46121D29131B007012A9 /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69F46131D29131B007012A9 /* Debug */,
+				A69F46141D29131B007012A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69F45F31D29131B007012A9 /* Project object */;
+}
